@@ -1,0 +1,255 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-image: url('../images/banner/banner1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    min-height: 80vh;
+    position: relative;
+}
+
+.banner-center-content {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    text-align: right;
+}
+
+.banner-center-content h2 {
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+    padding-bottom: 20px;
+}
+
+.banner-center-content p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+.primary-btn {
+    padding: 16px 20px;
+    background: #F15B22;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 20px;
+    border: none;
+    margin-top: 20px;
+}
+
+.blog {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-left h2 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 47px;
+    color: #151414;
+    width: 288px;
+    padding-left: 87px;
+}
+
+.blog-left p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    width: 416px;
+    padding-left: 87px;
+}
+
+.blog-img img {
+    width: 472px;
+}
+
+.check {
+    margin-top: 16px;
+}
+
+.check p img {
+    width: 24px;
+    height: 24px;
+}
+
+.plan-title {
+    text-align: center;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-top: 130px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    padding: 44px;
+    margin-left: 24px;
+    text-align: center;
+}
+
+.card img {
+    margin-bottom: 42px;
+}
+
+.card h4 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #151414;
+}
+
+.card p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+}
+
+.gradient {
+    background-image: url('../images/watch.png'), linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    position: absolute;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 1140px;
+    height: 240px;
+    left: 400px;
+    top: 2100.3px;
+    background-blend-mode: overlay;
+    border-radius: 8px;
+    text-align: left;
+    padding-bottom: 60px;
+}
+
+.gradient-title h2 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    padding: 60px;
+}
+
+.btn {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 64px;
+    color: #F15B22;
+    height: 64px;
+    width: 160px;
+    border-radius: 5px;
+    border: none;
+}
+
+footer {
+    position: absolute;
+    top: 2553px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 70vh;
+    background: #151414;
+    color: white;
+}
+
+.footer-comtainer {
+    display: flex;
+    width: 75%;
+    height: 60vh;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-title h2 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+}
+
+.footer-title p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.mail {
+    margin-top: 24px;
+}
+
+.phone {
+    margin-top: 16px;
+}
+
+.icons img {
+    margin-top: 32px;
+    column-gap: 5px;
+}
+
+.subscribe-title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-bottom: 31px;
+}
+
+.btn1 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    height: 64px;
+    width: 160px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 16px;
+}
+
+.email-border input {
+    width: 325px;
+    height: 64px;
+    border-radius: 5px;
+}
