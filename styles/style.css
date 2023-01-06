@@ -185,25 +185,26 @@ footer {
     color: white;
 }
 
-.footer-comtainer {
+.future-comtainer {
     display: flex;
     width: 75%;
     height: 60vh;
     margin: 0 auto;
     justify-content: space-around;
-    align-items: center;
+    padding: 110px;
 }
 
-.footer-title h2 {
+.future-title h2 {
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 45px;
     line-height: 53px;
     color: #F8F8F8;
+    margin-bottom: 16px;
 }
 
-.footer-title p {
+.future-title p {
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 400;
@@ -220,9 +221,10 @@ footer {
     margin-top: 16px;
 }
 
-.icons img {
+.icon {
+    display: flex;
+    gap: 15px;
     margin-top: 32px;
-    column-gap: 5px;
 }
 
 .subscribe-title {
@@ -249,7 +251,20 @@ footer {
 }
 
 .email-border input {
+    padding-left: 15px;
     width: 325px;
     height: 64px;
+    border-radius: 5px;
+    background: #151414;
+    border: 2px solid #F3F3F3;
+}
+
+.email-border input::placeholder {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #F3F3F3;
     border-radius: 5px;
 }
