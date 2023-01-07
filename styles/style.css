@@ -4,6 +4,9 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+
+/* nevigation bar style */
+
 nav {
     display: flex;
     justify-content: space-between;
