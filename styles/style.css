@@ -4,6 +4,9 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+
+/* header and banner style */
+
 header {
     background-image: url('../images/banner/banner1.png');
     background-position: center;
@@ -39,6 +42,9 @@ header {
     color: #444343;
 }
 
+
+/* primary button style */
+
 .primary-btn {
     padding: 16px 20px;
     background: #F15B22;
@@ -48,6 +54,9 @@ header {
     border: none;
     margin-top: 20px;
 }
+
+
+/* blog style */
 
 .blog {
     margin-top: 150px;
@@ -90,6 +99,9 @@ header {
     width: 24px;
     height: 24px;
 }
+
+
+/* my plan style */
 
 .plan-title {
     text-align: center;
@@ -136,6 +148,9 @@ header {
     color: #737272;
 }
 
+
+/* gradient style */
+
 .gradient {
     background-image: url('../images/watch.png'), linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
     position: absolute;
@@ -161,6 +176,9 @@ header {
     padding: 60px;
 }
 
+
+/* btn style */
+
 .btn {
     font-family: 'Work Sans';
     font-style: normal;
@@ -173,6 +191,9 @@ header {
     border-radius: 5px;
     border: none;
 }
+
+
+/* footer and future style */
 
 footer {
     position: absolute;
@@ -212,6 +233,9 @@ footer {
     line-height: 26px;
     color: #FFFFFF;
 }
+
+
+/* mail, icon, phone nad subscrib style */
 
 .mail {
     margin-top: 24px;
