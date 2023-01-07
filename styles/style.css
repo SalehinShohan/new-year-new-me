@@ -4,6 +4,33 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 230px;
+    padding-top: 40px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.primary-color {
+    color: #FD6E0A;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
 
 /* header and banner style */
 
